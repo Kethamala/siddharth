@@ -1,0 +1,21 @@
+az group create --name Siddharth --location eastus
+
+az vm availability-set create \
+    --resource-group Siddharth \
+    --location eastus \
+    --name avsets \
+    --platform-fault-domain-count 3 \
+    --platform-update-domain-count 19
+
+az vm create \
+     --resource-group Siddharth \
+     --name VM1 \
+     --availability-set avsets \
+     --size Standard_B1s  \
+     --vnet-name vnet1 \
+     --subnet Subnet1 \
+     --image UbuntuLTS \
+     --admin-username sidduadmin \
+     --generate-ssh-keys
+
+

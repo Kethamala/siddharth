@@ -1,0 +1,148 @@
+What is cloud computing:
+https://azure.microsoft.com/en-us/overview/what-is-cloud-computing/#uses
+
+What is Azure:
+https://azure.microsoft.com/en-us/overview/what-is-azure/
+
+Create free account:
+https://azure.microsoft.com/en-us/free/
+
+Azure hierarchy:
+https://docs.microsoft.com/en-us/azure/cloud-adoption-framework/ready/azure-best-practices/organize-subscriptions
+
+Azure CMD line tools:
+
+AZCLI:
+https://docs.microsoft.com/en-us/cli/azure/what-is-azure-cli
+https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
+
+Azure PowerShell:
+https://docs.microsoft.com/en-us/powershell/azure/?view=azps-6.4.0
+https://docs.microsoft.com/en-us/powershell/azure/install-az-ps-msi?view=azps-6.4.0
+
+VSCode:
+https://code.visualstudio.com/docs
+https://code.visualstudio.com/
+
+Azure DevOps:
+https://docs.microsoft.com/en-us/azure/devops/organizations/?view=azure-devops
+https://docs.microsoft.com/en-us/azure/devops/user-guide/what-is-azure-devops?view=azure-devops
+https://docs.microsoft.com/en-us/azure/devops/user-guide/services?view=azure-devops
+
+Organizations:
+https://docs.microsoft.com/en-us/azure/devops/organizations/accounts/organization-management?view=azure-devops
+
+Projects:
+https://docs.microsoft.com/en-us/azure/devops/organizations/projects/about-projects?view=azure-devops
+https://docs.microsoft.com/en-us/azure/devops/organizations/settings/about-teams-and-settings?view=azure-devops
+
+Service connections:
+https://docs.microsoft.com/en-us/azure/devops/pipelines/library/service-endpoints?view=azure-devops&tabs=yaml
+
+Agents:
+https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/agents?view=azure-devops&tabs=browser
+
+Git install:
+https://www.atlassian.com/git/tutorials/install-git
+https://www.atlassian.com/git/tutorials/atlassian-git-cheatsheet
+
+VSCode versioning:
+https://code.visualstudio.com/docs/editor/versioncontrol
+
+CICD:
+https://docs.microsoft.com/en-us/azure/devops/pipelines/build/ci-build-git?view=azure-devops&tabs=classic
+https://docs.microsoft.com/en-us/azure/devops/pipelines/release/define-multistage-release-process?view=azure-devops
+
+Networking:
+https://en.wikipedia.org/wiki/Classless_Inter-Domain_Routing
+https://www.geeksforgeeks.org/basics-computer-networking/
+https://www.paessler.com/it-explained/ip-address
+
+azure virtual network:
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-networks-overview
+https://docs.microsoft.com/en-us/azure/virtual-network/quick-create-portal
+https://docs.microsoft.com/en-us/azure/virtual-network/create-public-ip-portal
+
+Vnet peering:
+https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview
+
+NSG:
+https://docs.microsoft.com/en-us/azure/virtual-network/network-security-groups-overview
+https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-filter-network-traffic
+https://docs.microsoft.com/en-us/azure/virtual-network/tutorial-filter-network-traffic#associate-network-interfaces-to-a
+n-asg
+
+HUB and SPOKE azure:
+https://docs.microsoft.com/en-us/azure/architecture/reference-architectures/hybrid-networking/hub-spoke?tabs=cli
+
+Site to Site:
+https://docs.microsoft.com/en-us/azure/vpn-gateway/tutorial-site-to-site-portal
+
+point to site :
+https://techcommunity.microsoft.com/t5/itops-talk-blog/step-by-step-creating-an-azure-point-to-site-vpn/ba-p/326264
+
+express route:
+https://azure.microsoft.com/en-us/services/expressroute/
+
+AV zone and AV sets:
+https://docs.microsoft.com/en-us/azure/availability-zones/az-overview
+https://docs.microsoft.com/en-us/azure/virtual-machines/availability-set-overview
+
+Godaddy:
+https://www.websitebuilderexpert.com/website-builders/how-to-build-a-website-on-godaddy/
+
+Azure DNS zones:
+https://docs.microsoft.com/en-us/azure/dns/dns-zones-records
+https://docs.microsoft.com/en-us/azure/dns/dns-getstarted-portal
+
+Azure private DNS:
+https://docs.microsoft.com/en-us/azure/dns/private-dns-getstarted-portal
+
+Azure Basic and standard Load balancer:
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-2-create-load-balancer-basic
+https://docs.microsoft.com/en-us/azure/load-balancer/quickstart-load-balancer-standard-public-portal?tabs=option-1-create-load-balancer-standard
+
+TMP:
+https://docs.microsoft.com/en-us/azure/traffic-manager/quickstart-create-traffic-manager-profile
+
+AFD:
+https://docs.microsoft.com/en-us/azure/frontdoor/quickstart-create-front-door
+
+azure application gateways:
+https://docs.microsoft.com/en-us/azure/application-gateway/quick-create-portal
+
+Azure VMS:
+https://docs.microsoft.com/en-us/azure/virtual-machines/linux/quick-create-portal
+https://docs.microsoft.com/en-us/azure/virtual-machines/ssh-keys-portal
+https://docs.microsoft.com/en-us/azure/virtual-machines/linux/create-ssh-keys-detailed
+https://docs.microsoft.com/en-us/azure/virtual-machines/windows/quick-create-portal
+
+Bastion:
+https://docs.microsoft.com/en-us/azure/bastion/quickstart-host-portal
+
+Capture images:
+https://docs.microsoft.com/en-us/azure/virtual-machines/capture-image-portal
+https://www.packer.io/docs/builders/azure
+
+Storage accounts:
+https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview
+https://docs.microsoft.com/en-us/azure/storage/blobs/
+https://docs.microsoft.com/en-us/azure/storage/blobs/storage-blob-static-website
+
+Azure SQL:
+https://docs.microsoft.com/en-us/azure/azure-sql/azure-sql-iaas-vs-paas-what-is-overview
+
+ARM templates:
+https://docs.microsoft.com/en-us/azure/azure-resource-manager/templates/overview
+https://github.com/Azure/azure-quickstart-templates
+
+Terraform:
+https://docs.microsoft.com/en-us/azure/developer/terraform/overview
+
+azure vm backups:
+https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction
+
+azure vm replication:
+https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-quickstart
+
+
