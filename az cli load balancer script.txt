@@ -1,0 +1,17 @@
+az group create -l eastus -n siddharth
+
+az network vnet create -g siddharth -n siddu-vnet1 --address-prefix 10.1.0.0/16 --subnet-name siddu-subnet-1 --subnet-prefix 10.1.1.0/24 -l eastus
+
+az network vnet create -g siddharth -n siddu-vnet1 --address-prefix 10.1.0.0/16 --subnet-name siddu-subnet-2 --subnet-prefix 10.1.2.0/24 -l eastus
+
+az vm availability-set create --name siddu-avset1 -g siddharth --location eastus --platform-fault-domain-count 3 --platform-update-domain-count 20
+
+az vm create --resource-group siddharth --name VM1 --image UbuntuLTS --vnet-name siddu-vnet1 --subnet siddu-subnet-1 --admin-username sidduadmin --admin-password "Sidduadmin@1996" --size Standard_B1ms --nsg NSG1 --availability-set siddu-avset1 
+
+az vm create --resource-group siddharth --name VM2 --image UbuntuLTS --vnet-name siddu-vnet1 --subnet siddu-subnet-2 --admin-username sidduadmin --admin-password "Sidduadmin@1996" --size Standard_B1ms --nsg NSG1 --availability-set siddu-avset1 
+
+az vm create --resource-group siddharth --name VM3 --image UbuntuLTS --vnet-name siddu-vnet1 --subnet siddu-subnet-2 --admin-username sidduadmin --admin-password "Sidduadmin@1996" --size Standard_B1ms --nsg NSG1 --zone 1 
+
+az network lb create --resource-group siddharth --name sidduLB --sku Basic -l eastus
+    
+    
